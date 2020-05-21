@@ -1,0 +1,105 @@
+﻿html, body{
+	height: 100%;
+	background: #3C4564;
+}
+
+body {
+    font-family:'Arial';
+    margin: 0px;
+}
+
+.table{
+    display: table;
+    width: 100%;
+}
+
+.row{
+    display: table-row;
+}
+
+.cell{
+    display: table-cell;
+}
+
+.headerMain {
+	background: #353D57 url("cgi games front.png") no-repeat center;
+	background-size: 50%;
+	color: #6ba6ff;
+	position: relative;
+	height: 20%;
+	
+}
+
+#headerText {
+	display: inline-block;
+	position: absolute;
+    text-align: right;
+    padding: 20px 0px;
+    background: #888;
+    color: #6ba6ff;
+    font-weight: bold;
+    font-size: 30px;
+	margin-right: 2px;
+	margin-left: auto;
+	right: 2%;
+}
+
+.horizontalSep {
+	display: inline-block;
+	margin: 0px;
+	padding: 0px;
+	border: 1px;
+	border-style: outset;
+	border-radius: 4px;
+	border-color: #2A589E;
+	width: 100%;
+	background: #888;
+	height: 2px;
+}
+
+.gameListContent {
+	position: relative;
+	height: 80%;
+	margin: 0 0;
+	padding: 0;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+
+.gameListRow {
+	position: relative;
+	margin: 0 0.1em;
+	display: block;
+	border-color: #406288;
+	/*border-color: #645D7F;*/
+	border-style: solid;
+	border-width: 1px;
+}
+
+.gameListItem {
+	position: relative;
+	height: 256px;
+	width: 256px;
+	display: inline-block;
+	margin: 1.5em;
+	background: black;
+	border-style: outset;
+	border-color: #406288;
+}
+
+.gameListItem_SpaceInvaders {
+	background: black url("space_invaders_flyer256.jpg") no-repeat center;
+}
+
+.gameListitem:hover {
+	border-color: #7A9EC6;
+}
+
+.gameListItem:active {
+	border-style: inset;
+	transform: translateY(2px) translateX(2px)
+}
+
+
+
+
