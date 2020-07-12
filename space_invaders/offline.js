@@ -1,5 +1,5 @@
 ﻿{
-	"version": 1594541295,
+	"version": 1594590001,
 	"fileList": [
 		"data.js",
 		"c2runtime.js",
@@ -42,6 +42,7 @@
 		"images/sprite-sheet0.png",
 		"images/touch_right_arrow-sheet0.png",
 		"images/touch_left_arrow-sheet0.png",
+		"images/right_occluder.png",
 		"media/invader1.m4a",
 		"media/invader1.ogg",
 		"media/invader3.m4a",
